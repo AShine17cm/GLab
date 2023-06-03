@@ -1,2 +1,0 @@
-E:\OpenGLProj\opengl-tutorials-main\YoutubeOpenGL 4 - Organizing\x64\Debug\YoutubeOpenGL.exe
-E:\GLab\GLab\baseScene\x64\Debug\YoutubeOpenGL.exe

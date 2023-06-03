@@ -75,21 +75,29 @@
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>Libraries\include;$(IncludePath)</IncludePath>
     <LibraryPath>Libraries\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>..\Outputs</OutDir>
+    <IntDir>..\Outputs</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>Libraries\include;$(IncludePath)</IncludePath>
     <LibraryPath>Libraries\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>..\Outputs</OutDir>
+    <IntDir>..\Outputs</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>Libraries\include;$(IncludePath)</IncludePath>
     <LibraryPath>Libraries\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>..\Outputs</OutDir>
+    <IntDir>..\Outputs</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>Libraries\include;$(IncludePath)</IncludePath>
     <LibraryPath>Libraries\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>..\Outputs</OutDir>
+    <IntDir>..\Outputs</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

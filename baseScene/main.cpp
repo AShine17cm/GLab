@@ -1,5 +1,3 @@
-#include <filesystem>
-//namespace fs = std::filesystem;
 
 #include <iostream>
 #include <glad/glad.h>
